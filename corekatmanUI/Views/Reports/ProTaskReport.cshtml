@@ -1,0 +1,31 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+@model IEnumerable<coreModel.Model.ViewModel.projecttasklistivew>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Project ID</th>
+            <th>Project Name</th>
+            <th>Project Start Date</th>
+            <th>Project End Date</th>
+            <th>Task Description</th>
+            <th>Task Name</th>
+            <th>Task Point</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.ProjectId</td>
+                <td>@item.ProjectName</td>
+                <td>@item.StartDate</td>
+                <td>@item.EndDate</td>
+                <td>@item.TaskkDescription</td>
+                <td>@item.TaskkName</td>
+                <td>@item.TaskkPoint</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,33 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+@model IEnumerable<coreModel.Model.ViewModel.kidperlistview>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Kid ID</th>
+            <th>Kid Name Surname</th>
+            <th>Kid Gender</th>
+            <th>Kid Birthdate</th>
+            <th>Personel Name Surname</th>
+            <th>Personel Gender</th>
+            <th>Personel Birthdate</th>
+            <th>Personel Shift Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.KidId</td>
+                <td>@item.NameSurname</td>
+                <td>@item.Gender</td>
+                <td>@item.BirthDate</td>
+                <td>@item.Name</td>
+                <td>@item.Genders</td>
+                <td>@item.BirthDates</td>
+                <td>@item.ShiftStatus</td>
+            </tr>
+        }
+    </tbody>
+</table>

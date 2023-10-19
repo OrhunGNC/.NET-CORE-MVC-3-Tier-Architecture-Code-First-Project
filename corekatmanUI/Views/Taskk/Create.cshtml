@@ -1,0 +1,41 @@
+﻿@model coreModel.Model.Taskks
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h4>Taskks</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="TaskkDescription" class="control-label"></label>
+                <input asp-for="TaskkDescription" class="form-control" />
+                <span asp-validation-for="TaskkDescription" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TaskkName" class="control-label"></label>
+                <input asp-for="TaskkName" class="form-control" />
+                <span asp-validation-for="TaskkName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TaskkPoint" class="control-label"></label>
+                <input asp-for="TaskkPoint" class="form-control" />
+                <span asp-validation-for="TaskkPoint" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<br />
+<div>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>
+

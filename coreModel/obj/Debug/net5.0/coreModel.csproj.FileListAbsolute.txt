@@ -1,0 +1,11 @@
+C:\Users\pc\Desktop\DOTNET CORE MVC 3 Tier Architecture Code First Project\coreModel\bin\Debug\net5.0\coreModel.deps.json
+C:\Users\pc\Desktop\DOTNET CORE MVC 3 Tier Architecture Code First Project\coreModel\bin\Debug\net5.0\coreModel.dll
+C:\Users\pc\Desktop\DOTNET CORE MVC 3 Tier Architecture Code First Project\coreModel\bin\Debug\net5.0\coreModel.pdb
+C:\Users\pc\Desktop\DOTNET CORE MVC 3 Tier Architecture Code First Project\coreModel\obj\Debug\net5.0\coreModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Desktop\DOTNET CORE MVC 3 Tier Architecture Code First Project\coreModel\obj\Debug\net5.0\coreModel.AssemblyInfoInputs.cache
+C:\Users\pc\Desktop\DOTNET CORE MVC 3 Tier Architecture Code First Project\coreModel\obj\Debug\net5.0\coreModel.AssemblyInfo.cs
+C:\Users\pc\Desktop\DOTNET CORE MVC 3 Tier Architecture Code First Project\coreModel\obj\Debug\net5.0\coreModel.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\DOTNET CORE MVC 3 Tier Architecture Code First Project\coreModel\obj\Debug\net5.0\coreModel.dll
+C:\Users\pc\Desktop\DOTNET CORE MVC 3 Tier Architecture Code First Project\coreModel\obj\Debug\net5.0\refint\coreModel.dll
+C:\Users\pc\Desktop\DOTNET CORE MVC 3 Tier Architecture Code First Project\coreModel\obj\Debug\net5.0\coreModel.pdb
+C:\Users\pc\Desktop\DOTNET CORE MVC 3 Tier Architecture Code First Project\coreModel\obj\Debug\net5.0\ref\coreModel.dll

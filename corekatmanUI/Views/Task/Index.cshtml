@@ -1,0 +1,45 @@
+﻿@model IEnumerable<coreModel.Model.Taskks>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<p>
+    <a asp-action="Create" class="btn btn-success">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TaskkDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TaskkName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TaskkPoint)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TaskkDescription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TaskkName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TaskkPoint)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.TaskksId" class="btn btn-primary">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@item.TaskksId" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

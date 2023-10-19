@@ -1,0 +1,29 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+@model IEnumerable<coreModel.Model.ViewModel.unittasklistview>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Unit ID</th>
+            <th>Unit Name</th>
+            <th>Number of Employees</th>
+            <th>Task Description</th>
+            <th>Task Name</th>
+            <th>Task Point</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.UnitId</td>
+                <td>@item.UnitName</td>
+                <td>@item.NumbofEmployee</td>
+                <td>@item.TaskkDescription</td>
+                <td>@item.TaskkName</td>
+                <td>@item.TaskkPoint</td>
+            </tr>
+        }
+    </tbody>
+</table>
